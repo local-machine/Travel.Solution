@@ -35,7 +35,7 @@ namespace Travel.Controllers
         }
 
         // PUT api/users/5
-        [HttpPut("{id}")]
+        [HttpPut("{id}")] 
         public void Put(int id, [FromBody] Place place)
         {
             place.PlaceId = id;
