@@ -1,0 +1,24 @@
+@{
+    Layout = "_Layout";
+}
+
+@model Travel.Models.Place
+
+<h2>Edit</h2>
+
+<h4>Edit this place: @Html.DisplayFor(model => model.City)</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.PlaceId)
+
+    @Html.LabelFor(model => model.City)
+    @Html.EditorFor(model => model.City)
+    <br/>
+    @Html.LabelFor(model => model.Country)
+    @Html.EditorFor(model => model.Country)
+
+    <input type="submit" value="Save" />
+}
+
+<p>@Html.ActionLink("Back to Places", "Index")</p>

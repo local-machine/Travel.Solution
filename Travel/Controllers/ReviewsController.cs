@@ -28,18 +28,6 @@ namespace Travel.Controllers
             _db.SaveChanges();
         }
 
-        // GET api/reviews/city
-        [HttpGet("{city}")]
-        public ActionResult<Review> Get(string city)
-        {
-            return _db.Reviews.FirstOrDefault(x => x.City == city);
-        }
-        // GET api/reviews/country
-        [HttpGet("{country}")]
-        public ActionResult<Review> Get(string country)
-        {
-            return _db.Reviews.FirstOrDefault(x => x.Country == country);
-        }
         // PUT api/reviews/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] Review review)

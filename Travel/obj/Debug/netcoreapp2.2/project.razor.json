@@ -2941,6 +2941,72 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "Travel",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "Views/Reviews/Delete.cshtml",
+      "TargetPath": "Views/Reviews/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Reviews/Details.cshtml",
+      "TargetPath": "Views/Reviews/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Places/Create.cshtml",
+      "TargetPath": "Views/Places/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Reviews/Edit.cshtml",
+      "TargetPath": "Views/Reviews/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Places/Index.cshtml",
+      "TargetPath": "Views/Places/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Reviews/Create.cshtml",
+      "TargetPath": "Views/Reviews/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Shared/Footer.cshtml",
+      "TargetPath": "Views/Shared/Footer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/Index.cshtml",
+      "TargetPath": "Views/Home/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Places/Delete.cshtml",
+      "TargetPath": "Views/Places/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Places/Edit.cshtml",
+      "TargetPath": "Views/Places/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views/Shared/_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Places/Details.cshtml",
+      "TargetPath": "Views/Places/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Reviews/Index.cshtml",
+      "TargetPath": "Views/Reviews/Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.1"
 }

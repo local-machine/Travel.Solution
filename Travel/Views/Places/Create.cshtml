@@ -1,0 +1,18 @@
+@{
+    Layout = "_Layout";
+}
+
+@model Travel.Models.Place
+<h4>Add a new place</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.City)
+    @Html.TextBoxFor(model => model.City)
+    <br/>
+    @Html.LabelFor(model => model.Country)
+    @Html.TextBoxFor(model => model.Country)
+    <br/>
+    <input type="submit" value="Add new task"/>
+}
+<p>@Html.ActionLink("Show all places", "Index")</p>

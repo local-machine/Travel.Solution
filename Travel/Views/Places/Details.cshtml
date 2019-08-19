@@ -1,0 +1,13 @@
+@{
+    Layout = "_Layout";
+}
+
+@model Travel.Models.Place
+
+<h2>Place Details</h2>
+<hr />
+<h3>@Html.DisplayNameFor(model => model.City): @Html.DisplayFor(model => model.City)</h3>
+<h3>@Html.DisplayNameFor(model => model.Country): @Html.DisplayFor(model => model.Country)</h3>
+<p>@Html.ActionLink("Back to list", "Index")</p>
+<p>@Html.ActionLink("Edit Place", "Edit", new { id = Model.PlaceId})</p>
+<p>@Html.ActionLink("Delete Place", "Delete", new { id = Model.PlaceId})</p>

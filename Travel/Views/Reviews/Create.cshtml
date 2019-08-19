@@ -1,0 +1,27 @@
+@{
+    Layout = "_Layout";
+}
+
+@model Travel.Models.Review
+<h4>Add a new review</h4>
+
+@using (Html.BeginForm())
+{
+    
+    @Html.LabelFor(model => model.Place)
+    @Html.DropDownList("PlaceId")
+
+    <h4>Review Description</h4>
+    <hr/>
+    @Html.LabelFor(model => model.Description)
+    @Html.TextBoxFor(model => model.Description)
+    <br/>
+    <h4>Rate from 1 - 5 </h4>
+    <hr/>
+    @Html.LabelFor(model => model.Rating)
+    @Html.TextBoxFor(model => model.Rating)
+
+
+    <input type="submit" value="Add new review"/>
+}
+<p>@Html.ActionLink("Back to Reviews", "Index")</p>
