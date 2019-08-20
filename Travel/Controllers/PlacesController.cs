@@ -19,6 +19,7 @@ namespace Travel.Controllers
         {
             return _db.Places.ToList();
         }
+        
 
         // POST api/places
         [HttpPost]

@@ -9,8 +9,9 @@ namespace Travel.Models
     {
         [Key]
         public int PlaceId { get; set; }
-        
+        [Required]
         public string City { get; set; }
+        [Required]
         public string Country { get; set; }
         public virtual ICollection<Review> Reviews { get; set; }
         public Place()
